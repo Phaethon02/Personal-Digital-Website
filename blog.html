@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Brian R. Garcia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <h1 class="logo">Digital Profile</h1>
+        </div>
+    </header>
+
+    <!-- Side Panel -->
+    <div class="side-panel" id="sidePanel">
+        <div class="side-panel-overlay" id="sidePanelOverlay"></div>
+        <nav class="side-panel-content">
+            <div class="side-panel-header">
+                <h2>Menu</h2>
+                <button class="close-btn" id="closeBtn" aria-label="Close menu">×</button>
+            </div>
+            <div class="side-panel-links">
+                <a href="index.html" class="side-panel-link">Home</a>
+                <a href="projects.html" class="side-panel-link">Projects</a>
+                <a href="skills.html" class="side-panel-link">Skills</a>
+                <a href="activities.html" class="side-panel-link">Activities</a>
+                <a href="resume.html" class="side-panel-link">Resume</a>
+                <a href="gallery.html" class="side-panel-link">Gallery</a>
+                <a href="blog.html" class="side-panel-link active">Blog</a>
+                <a href="showcase.html" class="side-panel-link">Showcase</a>
+                <a href="about.html" class="side-panel-link">About</a>
+                <a href="contacts.html" class="side-panel-link">Contacts</a>
+                <a href="reflection.html" class="side-panel-link">Reflection</a>
+                <a href="appreciation.html" class="side-panel-link">Appreciation</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Blog Section -->
+    <section class="section section-alt" id="blog">
+        <div class="container">
+            <h2 class="section-title">Blog</h2>
+            <p class="section-subtitle">Sharing insights, experiences, and knowledge from my journey in technology and learning.</p>
+            
+            <div class="blog-content">
+                <article class="blog-post featured-post">
+                    <div class="blog-post-header">
+                        <div class="blog-meta">
+                            <span class="blog-date">September 14, 2025</span>
+                            <span class="blog-category">Technology</span>
+                        </div>
+                        <h3 class="blog-title">Website Development Time-lapse: Building My Digital Profile</h3>
+                        <p class="blog-excerpt">
+                            Watch a glimpse of my progress in building my Digital Profile. This video showcases my web development process using HTML, CSS, and JavaScript.
+                        </p>
+                    </div>
+                    
+                    <div class="video-container">
+                        <iframe 
+                            src="https://www.youtube.com/embed/apxHzW4g-hk" 
+                            title="Website Development Time-lapse" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    
+                    <div class="blog-post-content">
+                        <p>This time-lapse video documents a glimpse of myself building this digital profile website, as I fix errors and add some final touches to my project. You'll see how I structured the HTML, styled with CSS, and added interactivity with JavaScript to create this responsive and modern web experience.</p>
+                        
+                        <div class="blog-tags">
+                            <span class="blog-tag">Web Development</span>
+                            <span class="blog-tag">HTML/CSS/JS</span>
+                            <span class="blog-tag">Time-lapse</span>
+                            <span class="blog-tag">Digital Portfolio</span>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="blog-sidebar">
+                    <div class="sidebar-widget">
+                        <h4>Recent Topics</h4>
+                        <ul class="topic-list">
+                            <li><a href="#blog">Learning C++ Fundamentals</a></li>
+                            <li><a href="#blog">Web Development Basics</a></li>
+                            <li><a href="#blog">College Life as BSCS Student</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="sidebar-widget">
+                        <h4>Categories</h4>
+                        <ul class="category-list">
+                            <li><a href="#blog">Programming <span>(1)</span></a></li>
+                            <li><a href="#blog">Education <span>(0)</span></a></li>
+                            <li><a href="#blog">Technology <span>(0)</span></a></li>
+                            <li><a href="#blog">Personal <span>(0)</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2025 Digital Profile Framework</p>
+            <p class="footer-subtext">Made with Dedication and modern web technologies</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

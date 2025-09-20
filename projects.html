@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Brian R. Garcia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <h1 class="logo">Digital Profile</h1>
+        </div>
+    </header>
+
+    <!-- Side Panel -->
+    <div class="side-panel" id="sidePanel">
+        <div class="side-panel-overlay" id="sidePanelOverlay"></div>
+        <nav class="side-panel-content">
+            <div class="side-panel-header">
+                <h2>Menu</h2>
+                <button class="close-btn" id="closeBtn" aria-label="Close menu">×</button>
+            </div>
+            <div class="side-panel-links">
+                <a href="index.html" class="side-panel-link">Home</a>
+                <a href="projects.html" class="side-panel-link active">Projects</a>
+                <a href="skills.html" class="side-panel-link">Skills</a>
+                <a href="activities.html" class="side-panel-link">Activities</a>
+                <a href="resume.html" class="side-panel-link">Resume</a>
+                <a href="gallery.html" class="side-panel-link">Gallery</a>
+                <a href="blog.html" class="side-panel-link">Blog</a>
+                <a href="showcase.html" class="side-panel-link">Showcase</a>
+                <a href="about.html" class="side-panel-link">About</a>
+                <a href="contacts.html" class="side-panel-link">Contacts</a>
+                <a href="reflection.html" class="side-panel-link">Reflection</a>
+                <a href="appreciation.html" class="side-panel-link">Appreciation</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">A showcase of my work and creative endeavors.</p>
+            
+            <div class="no-projects">
+                <div class="no-projects-icon"> 😞 </div>
+                <p class="no-projects-text">No projects yet.</p>
+                <p class="no-projects-subtext">Currently working on exciting new projects. Check back soon!</p>
+            </div>
+           
+            <div class="future-projects-section">
+                <h3 class="future-projects-title">Future Projects</h3>
+                <p class="future-projects-subtitle">Exciting projects I'm planning to work on in the near future.</p>
+                
+                <div class="projects-grid">
+                    <div class="project-item">
+                        <div class="project-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                                <polyline points="14,2 14,8 20,8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10,9 9,9 8,9"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Roblox Battle Game</h3>
+                        <p>A medieval themed fighting game where players utilize classes, magic, and skills.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Luau</span>
+                            <span class="project-tag">C++</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-item">
+                        <div class="project-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                <path d="m2 17 10 5 10-5"></path>
+                                <path d="m2 12 10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <h3>Data Management System</h3>
+                        <p>A web-based platform for students to manage courses, assignments, and track academic progress.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">Express</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2025 Digital Profile Framework</p>
+            <p class="footer-subtext">Made with Dedication and modern web technologies</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

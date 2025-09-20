@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Brian R. Garcia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <h1 class="logo">Digital Profile</h1>
+        </div>
+    </header>
+
+    <!-- Side Panel -->
+    <div class="side-panel" id="sidePanel">
+        <div class="side-panel-overlay" id="sidePanelOverlay"></div>
+        <nav class="side-panel-content">
+            <div class="side-panel-header">
+                <h2>Menu</h2>
+                <button class="close-btn" id="closeBtn" aria-label="Close menu">×</button>
+            </div>
+            <div class="side-panel-links">
+                <a href="index.html" class="side-panel-link">Home</a>
+                <a href="projects.html" class="side-panel-link">Projects</a>
+                <a href="skills.html" class="side-panel-link">Skills</a>
+                <a href="activities.html" class="side-panel-link">Activities</a>
+                <a href="resume.html" class="side-panel-link">Resume</a>
+                <a href="gallery.html" class="side-panel-link active">Gallery</a>
+                <a href="blog.html" class="side-panel-link">Blog</a>
+                <a href="showcase.html" class="side-panel-link">Showcase</a>
+                <a href="about.html" class="side-panel-link">About</a>
+                <a href="contacts.html" class="side-panel-link">Contacts</a>
+                <a href="reflection.html" class="side-panel-link">Reflection</a>
+                <a href="appreciation.html" class="side-panel-link">Appreciation</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Gallery Section -->
+    <section class="section" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Project Screenshots</h2>
+            <p class="section-subtitle">Visual highlights and Compilation from my projects.</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-item-large" onclick="openModal('imagefiles/Gallery_3.jfif')">
+                    <img src="imagefiles/Gallery_3.jfif" alt="Project Screenshot 1" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-plus"></div>
+                    </div>
+                    <div class="gallery-caption">Project Screenshot 1</div>
+                </div>
+                
+                <div class="gallery-item gallery-item-tall" onclick="openModal('imagefiles/Gallery_2.jfif')">
+                    <img src="imagefiles/Gallery_2.jfif" alt="Project Screenshot 2" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-plus"></div>
+                    </div>
+                    <div class="gallery-caption">Project Screenshot 2</div>
+                </div>
+                
+                <div class="gallery-item gallery-item-wide" onclick="openModal('imagefiles/Gallery_1.png')">
+                    <img src="imagefiles/Gallery_1.png" alt="Project Screenshot 3" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-plus"></div>
+                    </div>
+                    <div class="gallery-caption">Project Screenshot 3</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal" id="imageModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">×</button>
+            <img src="" alt="Project Screenshot" id="modalImage">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2025 Digital Profile Framework</p>
+            <p class="footer-subtext">Made with Dedication and modern web technologies</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
