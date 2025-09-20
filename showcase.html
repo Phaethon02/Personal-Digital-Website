@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showcase - Brian R. Garcia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <h1 class="logo">Digital Profile</h1>
+        </div>
+    </header>
+
+    <!-- Side Panel -->
+    <div class="side-panel" id="sidePanel">
+        <div class="side-panel-overlay" id="sidePanelOverlay"></div>
+        <nav class="side-panel-content">
+            <div class="side-panel-header">
+                <h2>Menu</h2>
+                <button class="close-btn" id="closeBtn" aria-label="Close menu">×</button>
+            </div>
+            <div class="side-panel-links">
+                <a href="index.html" class="side-panel-link">Home</a>
+                <a href="projects.html" class="side-panel-link">Projects</a>
+                <a href="skills.html" class="side-panel-link">Skills</a>
+                <a href="activities.html" class="side-panel-link">Activities</a>
+                <a href="resume.html" class="side-panel-link">Resume</a>
+                <a href="gallery.html" class="side-panel-link">Gallery</a>
+                <a href="blog.html" class="side-panel-link">Blog</a>
+                <a href="showcase.html" class="side-panel-link active">Showcase</a>
+                <a href="about.html" class="side-panel-link">About</a>
+                <a href="contacts.html" class="side-panel-link">Contacts</a>
+                <a href="reflection.html" class="side-panel-link">Reflection</a>
+                <a href="appreciation.html" class="side-panel-link">Appreciation</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Showcase Section -->
+    <section class="section" id="showcase">
+        <div class="container">
+            <h2 class="section-title">Showcase</h2>
+            <p class="section-subtitle">Featured work and notable achievements throughout my academic journey.</p>
+            
+            <div class="showcase-grid">
+                <div class="showcase-item featured">
+                    <div class="showcase-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline points="8.21,13.89 7,23 12,20 17,23 15.79,13.88"></polyline>
+                        </svg>
+                    </div>
+                    <div class="showcase-content">
+                        <h3>Featured Achievement</h3>
+                        <h4>NCII Passer</h4>
+                        <p>Successfully completed and passed the National Certificate II examination, demonstrating technical competency and professional readiness.</p>
+                        <div class="showcase-tags">
+                            <span class="tag">Achievement</span>
+                            <span class="tag">Certification</span>
+                        </div>
+                    </div>
+                    <button class="attachment-btn">
+                        <a href="imagefiles/NC (1).pdf" class="attachment-link" download>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14,2 14,8 20,8"></polyline>
+                        </svg></a>
+                    </button>
+                </div>
+                
+                <div class="showcase-item">
+                    <div class="showcase-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                            <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                            <path d="M4 22h16"></path>
+                            <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+                            <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+                            <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path>
+                        </svg>
+                    </div>
+                    <div class="showcase-content">
+                        <h3>Recognition</h3>
+                        <h4>Honor Student in Grade 11 and 12</h4>
+                        <p>Consistently achieved academic excellence and recognition throughout senior high school years.</p>
+                    </div>
+                </div>
+                
+                <div class="showcase-item">
+                    <div class="showcase-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="22,12 18,12 15,21 9,3 6,12 2,12"></polyline>
+                        </svg>
+                    </div>
+                    <div class="showcase-content">
+                        <h3>Impact</h3>
+                        <h4>Submitted 3 research papers during Senior High School</h4>
+                        <p>Demonstrated research capabilities and academic contribution through multiple research submissions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2025 Digital Profile Framework</p>
+            <p class="footer-subtext">Made with Dedication and modern web technologies</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
